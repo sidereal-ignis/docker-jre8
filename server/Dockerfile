@@ -1,6 +1,6 @@
 FROM buildpack-deps:stretch
 
-ARG JRE_TAG=181
+ARG JRE_TAG=192
 
 COPY server-jre-8u${JRE_TAG}-linux-x64.tar.gz /
 
